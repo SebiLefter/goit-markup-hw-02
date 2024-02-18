@@ -12,12 +12,14 @@ ul{
 }
 a{
   text-decoration: none;
+  cursor: default;
 }
 .main-page{
   color: var(--main-color);
 }
 .app-nav a,
-.app-nav a:visited {
+.app-nav a:visited
+.app-nav a:hover {
   font-family: var(--text-font-family);
   color: var(--main-color);
   font-weight: 500;
@@ -88,5 +90,4 @@ h2{
   color: #F4F4FD;
   font-size: 16px;
   line-height: 24px;
-
 }
